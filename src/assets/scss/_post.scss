@@ -1,30 +1,35 @@
+.post {
+  background-color: #fff;
+}
+
 .post-header {
   background-size: cover;
   color: #fff;
+  margin: 0 -15px;
 
   &.post-header-img {
     height: 33vh;
   }
 
+  @media (min-width: $screen-sm) {
+    margin: 0 -24.5px;
+  }
+
   @media (min-width: $screen-md) {
-    background-color: $brand-primary;
+    box-shadow: 0 0 3px rgba(107, 84, 171, .5);
+    margin: 2em 0 0;
+  }
+}
 
-    .embed-responsive {
-      margin: 0 auto;
-      max-height: 50vh;
-      max-width: $screen-md;
-      padding-bottom: 50vh;
-
-      iframe {
-        max-height: 50vh;
-        max-width: $screen-md;
-      }
-    }
+.post-content {
+  @media (min-width: $screen-md) {
+    box-shadow: 0 0 3px rgba(107, 84, 171, .5);
+    padding: 1em 1em 3em;
   }
 }
 
 .post-text {
-  padding: 1em;
+  padding: 0 0 1em;
   text-align: center;
 
   h1,
@@ -72,8 +77,12 @@
 
     &:after {
       content: '\201C';
-      right: -13px;
+      right: 0;
       top: 0;
+
+      @media (min-width: $screen-md) {
+        right: -13px;
+      }
     }
 
     em {
@@ -82,6 +91,7 @@
       font-weight: 400;
       position: absolute;
       right: 0;
+      bottom: -1em;
       color: #4C4C4C;
 
       &::before {
