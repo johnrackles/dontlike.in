@@ -46,9 +46,13 @@
 .frontpage-post-list-li-a {
   color: #fff;
   display: block;
-  height: calc(33.33vh - (47px / 3));
+  height: 210px;
   padding: 1em;
   position: relative;
+
+  @media (min-width: $screen-md) {
+    height: calc(33.33vh - (47px / 3));
+  }
 
   &:hover,
   &:focus {
@@ -57,10 +61,11 @@
 }
 
 .frontpage-post-list-li-a-div {
-  bottom: -1em;
+  bottom: 1em;
   position: absolute;
 
   @media (min-width: $screen-md) {
+    bottom: -1em;
     transition: transform .2s ease-in;
   }
 }
