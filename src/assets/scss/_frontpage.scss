@@ -23,7 +23,7 @@
 
   @media (min-width: $screen-sm) {
     display: inline-block;
-    flex-grow: 1;
+    width: 25vw;
 
     &:hover {
       .frontpage-post-list-li-a-div {
@@ -49,6 +49,7 @@
 
   @media (min-width: $screen-md) {
     height: calc(33.33vh - (2 * 47px / 3));
+    width: 100%;
   }
 
   &:hover,

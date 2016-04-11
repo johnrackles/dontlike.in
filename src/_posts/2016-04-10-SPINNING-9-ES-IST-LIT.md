@@ -7,6 +7,7 @@ tags:
   - Video
   - GUDG
 ---
-> Verifiziert, alles Lit<!--more--> *SPINNING 9*
+> Verifiziert, alles Lit
 
+<!--more-->
 SPINNING 9 ist Lit und ich bin an Bord. Gute Strophen, solide Hook, vernüftiger Beat von [YuPanther](https://www.facebook.com/DjYupanther), was will man mehr. Absolute Ohrwurmgefahr garantiert. Spinning hebt das GUDG Nivau auf jeden Fall jedes mal weit über den YSL und Hustensaft Durchschnitt und so darf man gespannt auf das Album sein, welches am 24.04. erscheint.
