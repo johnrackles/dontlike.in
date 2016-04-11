@@ -6,6 +6,7 @@
   background-size: cover;
   color: #fff;
   margin: 0 -15px;
+  overflow: hidden;
 
   &.post-header-img {
     height: 33vh;
@@ -140,7 +141,17 @@
   }
 }
 
+.post-header .embed-responsive {
+  z-index: 9;
+}
+
 .alternative-image {
+  bottom: 0;
+  left: 0;
   min-height: 100%;
   min-width: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
 }
