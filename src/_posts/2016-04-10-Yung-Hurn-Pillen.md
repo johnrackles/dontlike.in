@@ -6,8 +6,9 @@ tags:
   - Yung Hurn
   - Video
 ---
-
 > Baby ich hab Pillen und so... *Yung Hurn*
+
+<!--more-->
 
 Eins meine absoluten Lieblingslieder von Yung Hurn's aktuellem [Krocha Tape](https://yunghurn.bandcamp.com/album/krocha-tape) jetzt auch mit Video samt Live From Earth Kolleginnen [WOS](http://www.livefromearth.de/portfolio/wos/).
 
