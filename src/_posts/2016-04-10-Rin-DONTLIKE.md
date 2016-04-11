@@ -6,9 +6,7 @@ tags:
   - Rin
   - Video
 ---
-> Chief Keef aus den Boxen – DON'T LIKE *Rin*
-
-<!--more-->
+> Chief Keef aus den Boxen – DON'T LIKE<!--more--> *Rin*
 
 1€ Bier + 3€ Döner + 8€ Stoli und dazu Chief Keef oder Future aus den Boxen. Die Rechnung geht auf und so genießt Rin (neu im Lineup des Labels Live from Earth) das Leben und alle genießen mit.
 

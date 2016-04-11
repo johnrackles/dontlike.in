@@ -7,9 +7,7 @@ tags:
   - LGoony
   - GUDG
 ---
-> Output so hoch aber jeder Part ein Hit *LGoony*
-
-<!--more-->
+> Output so hoch aber jeder Part ein Hit<!--more--> *LGoony*
 
 Als dieser Track am Tag nach Money Boy's mittlerweile legendären Ausraster beim Konzert erschien dachte ich für einen kurzen Moment: &bdquo;Jetzt passierts, Money Boy macht als YSL Know Plug ab jetzt gute Musik&ldquo;.
 
