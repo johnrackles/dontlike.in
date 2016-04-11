@@ -2,18 +2,21 @@
 layout: default
 ---
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
-  {% if page.youtube_id %}
-  <header class="post-header">
-    <div class="embed-responsive embed-responsive-16by9">
-      <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/{{ page.youtube_id }}?modestbranding&showinfo=0" frameborder="0" allowfullscreen></iframe>
-    </div>
-  </header>
-  {% else %}
-  <header class="post-header post-header-img" style="background-image: url('/assets/images/posts/{{ page.header_img }}.jpg');">
-  </header>
-  {% endif %}
-
   <div class="container">
+    <div class="row">
+      <div class="col-md-10 col-md-offset-1">
+        {% if page.youtube_id %}
+        <header class="post-header">
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/{{ page.youtube_id }}?modestbranding&showinfo=0" frameborder="0" allowfullscreen></iframe>
+          </div>
+        </header>
+        {% else %}
+        <header class="post-header post-header-img" style="background-image: url('/assets/images/posts/{{ page.header_img }}.jpg');">
+        </header>
+        {% endif %}
+      </div>
+    </div>
     <div class="row">
       <div class="col-md-10 col-md-offset-1">
         <div class="post-content" itemprop="articleBody">
