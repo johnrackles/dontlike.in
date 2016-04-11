@@ -1,0 +1,40 @@
+---
+layout: default
+---
+
+<main class="main frontpage">
+  <ul class="frontpage-post-list">
+    {% for post in paginator.posts %}
+      <li class="frontpage-post-list-li" style="background-image: radial-gradient(ellipse at center, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, .75) 100%), {% if post.youtube_id %} url('https://img.youtube.com/vi/{{ post.youtube_id }}/maxresdefault.jpg') {% else %} url('/assets/images/posts/{{ post.header_img }}.jpg'){% endif %}">
+        <a href="{{ post.url }}" class="frontpage-post-list-li-a">
+          <div class="frontpage-post-list-li-a-div">
+            <div class="frontpage-post-list-li-a-div-div frontpage-post-list-date">{{ post.date | date: '%-d. %B %Y' }}</div>
+            <div class="frontpage-post-list-li-a-div-div frontpage-post-list-title">{{ post.title }}</div>
+          </div>
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+   <!-- Pagination -->
+  {% if paginator.total_pages > 1 %}
+  <div class="pagination">
+    {% if paginator.previous_page %}
+      <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="pagination-prev"><i class="fa fa-chevron-left"></i> Zurück</a>
+    {% endif %}
+
+    {% for page in (1..paginator.total_pages) %}
+      {% if page == paginator.page %}
+        <b class="pagination-b">{{ page }}</b>
+      {% elsif page == 1 %}
+        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
+      {% else %}
+        <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+      {% endif %}
+    {% endfor %}
+
+    {% if paginator.next_page %}
+      <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="pagination-next">Weiter <i class="fa fa-chevron-right"></i></a>
+    {% endif %}
+  </div>
+  {% endif %}
+</main>

@@ -1,0 +1,19 @@
+.rechtlich {
+  padding: 1em;
+
+  h1 {
+    border-bottom: 1px solid $brand-primary;
+    font-size: 1.2em;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 1em;
+  }
+
+  p {
+    font-size: .8em;
+  }
+}

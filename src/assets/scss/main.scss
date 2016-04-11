@@ -1,0 +1,17 @@
+$brand-primary: #3A1F85; // rgba(58, 31, 133, 1)
+$body-bg: $brand-primary;
+$font-family-sans-serif: "Montserrat", sans-serif;
+$font-family-serif: "Domine", serif;
+$font-size-base: 16px;
+$link-hover-decoration: none;
+
+@import
+  "vendor/bootstrap/bootstrap",
+  "base",
+  "placeholder",
+  "header",
+  "body",
+  "footer",
+  "frontpage",
+  "post",
+  "rechtlich";

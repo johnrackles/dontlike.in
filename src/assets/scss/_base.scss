@@ -1,0 +1,25 @@
+// stick footer to bottom
+html,
+body {
+  min-height: calc(100vh - 47px);
+}
+
+.main-container {
+  min-height: calc(100vh - 47px);
+  margin-bottom: -47px;
+
+  &:after {
+    content: '';
+    display: block;
+  }
+}
+
+.footer,
+.main-container:after {
+  height: 47px;
+}
+
+// Set Font Families
+p {
+  font-family: $font-family-serif;
+}
