@@ -13,8 +13,6 @@
   @media (min-width: $screen-sm) {
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-start;
-    margin: 0 auto;
   }
 }
 
@@ -26,7 +24,6 @@
   @media (min-width: $screen-sm) {
     display: inline-block;
     flex-grow: 1;
-    width: calc(33.33vh - (47px / 3));
 
     &:hover {
       .frontpage-post-list-li-a-div {
@@ -51,7 +48,8 @@
   position: relative;
 
   @media (min-width: $screen-md) {
-    height: calc(33.33vh - (47px / 3));
+    height: calc(33.33vh - (2 * 47px / 3));
+    width: calc(33.33vh - (47px / 3));
   }
 
   &:hover,
