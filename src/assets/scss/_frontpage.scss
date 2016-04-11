@@ -49,7 +49,6 @@
 
   @media (min-width: $screen-md) {
     height: calc(33.33vh - (2 * 47px / 3));
-    width: calc(33.33vh - (47px / 3));
   }
 
   &:hover,
@@ -63,8 +62,9 @@
   position: absolute;
 
   @media (min-width: $screen-md) {
-    bottom: -1em;
+    bottom: 1em;
     transition: transform .2s ease-in;
+    width: 100%;
   }
 }
 
@@ -97,6 +97,7 @@
     transform: translateY(100%);
     transition: transform .5s ease-in, opacity .5s ease-in;
     transition-delay: .1s;
+    position: absolute;
 
     blockquote {
       border: 0;
