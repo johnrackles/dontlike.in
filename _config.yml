@@ -20,6 +20,9 @@ author:
   twitter:
   github: johnrackles
 
+# SEO
+google_site_verification: 8l468xW0xqguJhzXFQ_4gslB5HLcBRdHN9RlUdp9QtM
+
 # _config.build.yml overwrites these options when you run `gulp build`
 # Enables future posts (posts with dates in the future) and drafts
 future: true
