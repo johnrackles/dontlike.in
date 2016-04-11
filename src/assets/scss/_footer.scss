@@ -18,7 +18,7 @@
 
 .footer-ul-li-a {
   color: #fff;
-  line-height: 24.6px;
+  line-height: 26.9px;
   position: relative;
 
   &:hover {
@@ -45,8 +45,13 @@
     }
   }
 
-  .fa {
-    font-size: 14px;
+  .icon {
+    display: inline-block;
+    fill: #fff;
+    height: 13px;
+    vertical-align: middle;
+    width: 13px;
+    margin-top: -3px;
   }
 }
 
