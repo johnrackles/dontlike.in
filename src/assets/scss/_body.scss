@@ -2,3 +2,13 @@
   background-color: #F8F8F8;
   margin-top: 47px;
 }
+
+.error404 {
+  text-align: center;
+  display: flex;
+  min-height: calc(100vh - 94px);
+}
+
+.error-text {
+  margin: auto;
+}
