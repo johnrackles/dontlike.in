@@ -30,7 +30,7 @@ layout: default
             {% if page.tags %}
               <ul class="tags">
                 {% for tag in page.tags %}
-                  <li><a class="post-tag" href="/tag/{{ tag | replace: ' ', '-'}}">{{ tag }}</a></li>
+                  <li><a class="post-tag" href="/tag/{{ tag | replace: ' ', '-' | downcase }}">{{ tag }}</a></li>
                 {% endfor %}
               </ul>
             {% endif %}
