@@ -152,7 +152,11 @@ gulp.task('images', () =>
   gulp.src('src/assets/images/**/*')
     .pipe($.cache($.imagemin({
       progressive: true,
-      interlaced: true
+      interlaced: true,
+      svgoPlugins: [
+        {cleanupIDs: false},
+        {removeUselessDefs: false}
+      ]
     })))
     .pipe(gulp.dest('.tmp/assets/images'))
     .pipe($.size({title: 'images'}))
