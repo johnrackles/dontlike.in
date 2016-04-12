@@ -1,5 +1,6 @@
 .footer {
   background-color: $brand-primary;
+  background-image: linear-gradient(to bottom, $lighter-color 0%, $brand-primary 25%);
   font-size: .7em;
   padding: 1em 0;
   text-align: center;

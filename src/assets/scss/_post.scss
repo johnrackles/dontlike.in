@@ -115,11 +115,13 @@
   transition: padding .1s;
 
   &:hover {
+    color: #fff;
     padding: 7px;
   }
 
   &.mod-no-hover {
     &:hover {
+      color: #fff;
       padding: 5px;
     }
   }
