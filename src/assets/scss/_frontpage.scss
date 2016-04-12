@@ -1,4 +1,4 @@
-.frontpage-post-list {
+.post-list {
   list-style: none;
   margin: 0;
   padding: 0;
@@ -9,7 +9,7 @@
   }
 }
 
-.frontpage-post-list-li {
+.post-list-li {
   background-size: auto, cover;
   background-position: center center, center center;
   overflow: hidden;
@@ -19,12 +19,12 @@
     width: 25vw;
 
     &:hover {
-      .frontpage-post-list-li-a-div {
+      .post-list-li-a-div {
         transform: translateY(-2em);
         transition: transform .3s ease-out;
       }
 
-      .frontpage-post-list-excerpt {
+      .post-list-excerpt {
         transform: translateY(0);
         opacity: 1;
         transition: transform .2s ease-out, opacity .2s ease-out;
@@ -33,7 +33,7 @@
   }
 }
 
-.frontpage-post-list-li-a {
+.post-list-li-a {
   color: #fff;
   display: block;
   height: 210px;
@@ -51,7 +51,7 @@
   }
 }
 
-.frontpage-post-list-li-a-div {
+.post-list-li-a-div {
   bottom: 1em;
   position: absolute;
 
@@ -62,13 +62,13 @@
   }
 }
 
-.frontpage-post-list-li-a-div-div {
+.post-list-li-a-div-div {
   background-color: rgba(58, 31, 133, .75);
   display: inline-block;
   padding: 5px;
 }
 
-.frontpage-post-list-title {
+.post-list-title {
   vertical-align: bottom;
 }
 
@@ -81,7 +81,7 @@
   font-size: 1.2em;
 }
 
-.frontpage-post-list-excerpt {
+.post-list-excerpt {
   display: none;
 
   @media (min-width: $screen-md) {

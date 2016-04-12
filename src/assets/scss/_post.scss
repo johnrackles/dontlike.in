@@ -81,7 +81,8 @@
   }
 }
 
-.post-title-h1 {
+.post-title-h1,
+.archiv-h1 {
   border-bottom: 1px solid $brand-primary;
   margin-bottom: .5em;
   padding-bottom: .5em;
@@ -114,8 +115,13 @@
   transition: padding .1s;
 
   &:hover {
-    color: #fff;
     padding: 7px;
+  }
+
+  &.mod-no-hover {
+    &:hover {
+      padding: 5px;
+    }
   }
 }
 

@@ -27,13 +27,13 @@ layout: default
             {% if page.author %}
                • von <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>
             {% endif %}
-            <!-- {% if page.tags %}
+            {% if page.tags %}
               <ul class="tags">
                 {% for tag in page.tags %}
                   <li><a class="post-tag" href="/tag/{{ tag | replace: ' ', '-'}}">{{ tag }}</a></li>
                 {% endfor %}
               </ul>
-            {% endif %} -->
+            {% endif %}
           </div>
           <div class="post-text">
             {{ content }}
