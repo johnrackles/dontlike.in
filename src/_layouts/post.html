@@ -8,7 +8,7 @@ layout: default
         {% if page.youtube_id %}
         <header class="post-header">
           <div class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/{{ page.youtube_id }}?modestbranding&showinfo=0&rel=0" frameborder="0" allowfullscreen></iframe>
+            <iframe class="embed-responsive-item" src="https://www.youtube-nocookie.com/embed/{{ page.youtube_id }}?modestbranding&showinfo=0&rel=0" frameborder="0" allowfullscreen></iframe>
             <img class="alternative-image" src="https://img.youtube.com/vi/{{ page.youtube_id }}/maxresdefault.jpg" alt="{{ page.title }} Bild" />
           </div>
         </header>
@@ -37,6 +37,14 @@ layout: default
           </div>
           <div class="post-text">
             {{ content }}
+          </div>
+          <div class="post-footer">
+            <h1 class="post-footer-h1">Teil das:</h1>
+            <ul class="socialshare">
+              <li class="socialshare-li">
+                <a class="socialshare-li-a" href="https://twitter.com/intent/tweet?url={{ page.url | prepend: 'https://dontlike.in' | cgi_escape }}&via=dontlikeBlog"><svg class="icon icon-twitter"><use xlink:href="/assets/images/icons.svg#icon-twitter"></use></svg> Twitter</a>
+              </li>
+            </ul>
           </div>
         </div>
       </div>

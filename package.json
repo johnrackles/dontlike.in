@@ -40,5 +40,6 @@
     "shelljs": "^0.6.0",
     "yargs": "^4.3.2",
     "gulp-rsync": "^0.0.5"
-  }
+  },
+  "dependencies": {}
 }
