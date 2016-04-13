@@ -6,9 +6,7 @@
   <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-   <!-- Google Fonts -->
-  <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700|Domine' rel='stylesheet' type='text/css'>
-   <!-- favicon -->
+  <!-- favicon -->
   <link rel="apple-touch-icon" sizes="57x57" href="/assets/images/favicon/apple-touch-icon-57x57.png?v=dLLaYwmq5B">
   <link rel="apple-touch-icon" sizes="60x60" href="/assets/images/favicon/apple-touch-icon-60x60.png?v=dLLaYwmq5B">
   <link rel="apple-touch-icon" sizes="72x72" href="/assets/images/favicon/apple-touch-icon-72x72.png?v=dLLaYwmq5B">
@@ -29,7 +27,8 @@
   <meta name="msapplication-TileImage" content="/assets/images/favicon/mstile-144x144.png?v=dLLaYwmq5B">
   <meta name="msapplication-config" content="/assets/images/favicon/browserconfig.xml?v=dLLaYwmq5B">
   <meta name="theme-color" content="#3a1f85">
-
+   <!-- Google Fonts -->
+  <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700|Domine' rel='stylesheet' type='text/css'>
   <!-- CSS -->
   <!-- inject:css -->
   <link rel="stylesheet" href="/assets/stylesheets/main-5d1ac4b557.min.css">
