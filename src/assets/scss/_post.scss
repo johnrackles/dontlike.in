@@ -95,6 +95,11 @@
   border-bottom: 1px solid $brand-primary;
   margin-bottom: .5em;
   padding-bottom: .5em;
+  font-size: 1.7em;
+
+  @media (min-width: $screen-md) {
+    font-size: 41px;
+  }
 }
 
 .post-title-meta {
