@@ -9,7 +9,9 @@
   overflow: hidden;
 
   &.post-header-img {
-    height: 33vh;
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 50vh;
   }
 
   @media (min-width: $screen-sm) {
@@ -88,6 +90,10 @@
       }
     }
   }
+
+  iframe {
+    margin: 1em 0;
+  }
 }
 
 .post-title-h1,
@@ -110,7 +116,7 @@
 .tags {
   display: inline-block;
   list-style: none;
-  margin: 0 0 0 5px;
+  margin: 0 0 5px 5px;
   padding: 0;
 
   li {
