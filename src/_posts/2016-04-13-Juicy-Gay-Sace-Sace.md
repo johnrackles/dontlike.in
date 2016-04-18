@@ -2,6 +2,8 @@
 layout: post
 title: Juicy Gay - Sace Sace
 youtube_id: SRG2uvRnPJg
+image: /assets/images/posts/2016-04-13-Juicy-Gay-Sace-Sace.jpg
+
 tags:
   - Juicy Gay
   - Video

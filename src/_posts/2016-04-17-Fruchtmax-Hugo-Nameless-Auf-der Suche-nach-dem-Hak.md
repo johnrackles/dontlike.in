@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Fruchtmax, Hugo Nameless - Auf der Suche nach dem HAK
-header_img: AufderJagdnachdemHak
+image: /assets/images/posts/2016-04-17-Fruchtmax-Hugo-Nameless-Auf-der-Suche-nach-dem-Hak.jpg
+
 tags:
   - Fruchtmax
   - Hugo Nameless
@@ -9,7 +10,7 @@ tags:
   - Mixtape
   - Download
 ---
-> Wir fahren mit dem Benza
+> Wir rollen mit dem Benza, du denkst nur &bdquo;Was für Gangster!&ldquo;
 
 <!--more-->
 <iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/216113976&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>

@@ -2,6 +2,8 @@
 layout: post
 title: Yung Hurn - Pillen
 youtube_id: AdhBuU5oraI
+image: /assets/images/posts/2016-04-10-Yung-Hurn-Pillen.jpg
+
 tags:
   - Yung Hurn
   - Video

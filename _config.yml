@@ -1,8 +1,13 @@
 # Title, decription, tagline and URL for your site
 # Can be used in your theme by calling 'site.title' and so on
-title: dontlike
+title: dontlike Blog
 description: Die Kunstvolle Präsentation einer Jugend, die Chief Keef besser als Tupac findet. Trap / Rap / Hip Hop Blog
 url: https://dontlike.in
+twitter:
+  username: dontlikeBlog
+social:
+  links:
+    - https://www.facebook.com/dontlikeBlog
 
 # Used so Jekyll outputs the site correctly so Gulp can do what it wants
 source: src
@@ -58,8 +63,6 @@ gems:
 # Settings for archives
 jekyll-archives:
   enabled:
-    - year
-    - month
     - categories
     - tags
   layouts:

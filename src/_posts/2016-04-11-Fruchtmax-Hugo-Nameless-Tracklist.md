@@ -2,6 +2,8 @@
 layout: post
 title: Fruchtmax & Hugo Nameless Tracklist
 youtube_id: zffuqKx9C0A
+image: /assets/images/posts/2016-04-11-Fruchtmax-Hugo-Nameless-Tracklist.jpg
+
 tags:
   - News
   - Hugo Nameless
@@ -15,6 +17,8 @@ Spätestens seit dem Auftritt mit Juicy Gay vor dem LGoony & Crack Ignaz Konzert
 Später kam dann noch die etwas clubbigere Nummer [Shake d1 GÖT](https://www.youtube.com/watch?v=3SwvEMo0_-k) :fire:, welche auch gut ins Ohr geht und dort bleibt. Außerdem gibt's ja noch den etwas ungewöhnlicheren Klavier WKMSNSHG Remix [WKMSNSHG(Deo Remix)](https://soundcloud.com/duzoe/frucht-max-x-hugo-nameless-wkmsnshg-deo-remix):fire: der weitaus weniger Listens hat als er verdient.
 
 Jetzt haben die beiden also die Tracklist ihres kommenden, noch namenlosen, Mixtapes veröffentlicht. Man darf sich also auf Features von Kulturerbe Achim (wer denkt sich eigentlich immer diese Namen aus), Lean Copper und Juicy Gay freuen. Insgesamt kommt das gute Stück dann also auf 14 gewiss hitverdächtige Tracks. Die Vorfreude meinerseits ist groß! :100:
+
+*Update: das Tape ist mittlerweile erschienen und [hier](/2016/04/17/Fruchtmax-Hugo-Nameless-Auf-der-Suche-nach-dem-Hak/) zu finden*
 
 ***
 

@@ -2,6 +2,8 @@
 layout: post
 title: SPINNING 9 - ES IST LIT
 youtube_id: s34p-ehBBF0
+image: /assets/images/posts/2016-04-10-SPINNING-9-ES-IS-LIT.jpg
+
 tags:
   - SPINNING 9
   - Video

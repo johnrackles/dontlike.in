@@ -2,10 +2,11 @@
 layout: post
 title: YSL Know Plug Ft. LGoony - Diamonds
 youtube_id: Guzb55xR2p8
+image: /assets/images/posts/2016-04-07-YSL-Know-Plug-Ft.-LGoony-Diamonds.jpg
+
 tags:
   - Money Boy
   - LGoony
-  - GUDG
 ---
 > Output so hoch aber jeder Part ein Hit
 

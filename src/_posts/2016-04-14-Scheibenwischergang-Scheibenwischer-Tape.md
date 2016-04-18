@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Scheibenwischergang - Scheibenwischer Tape
-header_img: scheibenwischertape
+image: /assets/images/posts/2016-04-14-Scheibenwischergang-Scheibenwischer-Tape.jpg
+
 tags:
   - Mixtape
   - Download

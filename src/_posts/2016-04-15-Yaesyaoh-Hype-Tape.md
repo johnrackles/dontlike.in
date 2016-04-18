@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Yaesyaoh - Hype Tape
-header_img: yaesyoah-hype-tape-cover
+image: /assets/images/posts/2016-04-15-Yaesyaoh-Hype-Tape.jpg
+
 tags:
   - Yaesyaoh
   - Mixtape

@@ -2,6 +2,8 @@
 layout: post
 title: Rin - DONTLIKE
 youtube_id: 0FdO3goZDFc
+image: /assets/images/posts/2016-04-10-Rin-DONTLIKE.jpg
+
 tags:
   - Rin
   - Video

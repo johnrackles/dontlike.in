@@ -11,7 +11,7 @@
 
 .post-list-li {
   background-size: auto, cover;
-  background-position: center center, center center;
+  background-position: center;
   overflow: hidden;
 
   @media (min-width: $screen-sm) {
@@ -92,6 +92,7 @@
     transition: transform .5s ease-in, opacity .5s ease-in;
     transition-delay: .1s;
     position: absolute;
+    padding-right: 1em;
 
     blockquote {
       border: 0;

@@ -2,6 +2,8 @@
 layout: post
 title: Zuna feat Nimo - Hol mir dein Cousin
 youtube_id: 4xRsDnKgHZc
+image: /assets/images/posts/2016-04-13-Zuna-feat-Nimo-Hol-mir-dein-Cousin.jpg
+
 tags:
   - Zuna
   - Video
