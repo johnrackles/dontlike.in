@@ -1,7 +1,7 @@
 # Title, decription, tagline and URL for your site
 # Can be used in your theme by calling 'site.title' and so on
 title: dontlike
-description: Die Kunstvolle Präsentation einer Jugend, die Chief Keef besser als Tupac findet.
+description: Die Kunstvolle Präsentation einer Jugend, die Chief Keef besser als Tupac findet. Trap / Rap / Hip Hop Blog
 url: https://dontlike.in
 
 # Used so Jekyll outputs the site correctly so Gulp can do what it wants
@@ -17,7 +17,7 @@ author:
   email: contact@dontlike.in
   uri: https://dontlike.in
   bio: Webdeveloper and Music Lover
-  twitter:
+  twitter: dontlikeBlog
   github: johnrackles
 
 # SEO
