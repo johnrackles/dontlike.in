@@ -11,7 +11,9 @@ Konstanzer Straße 14
 ## Kontakt:
 Telefon: +49 (0) 1525 61 57 428  
 E-Mail: contact@dontlike.in  
-Twitter: <a href="https://twitter.com/dontlikeBlog">@dontlikeBlog</a>
+Twitter: <a href="https://twitter.com/dontlikeBlog">@dontlikeBlog</a>  
+Facebook: <a href="https://www.facebook.com/dontlikeBlog/">dontlikeBlog</a>  
+Instagram: <a href="https://www.instagram.com/dontlikeblog/">dontlikeblog</a>
 
 # Haftungsausschluss (Disclaimer)
 ## Haftung für Inhalte

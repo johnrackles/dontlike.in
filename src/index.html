@@ -3,39 +3,52 @@ layout: default
 ---
 
 <main class="main frontpage">
-  <ul class="post-list">
-    {% for post in paginator.posts %}
-      <li class="post-list-li" style="background-image: radial-gradient(ellipse at center, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, .75) 100%), url('{{ post.image }}')">
-        <a href="{{ post.url }}" class="post-list-li-a">
-          <div class="post-list-li-a-div">
-            <div class="post-list-li-a-div-div post-list-date">{{ post.date | date: '%-d. %B %Y' }}</div>
-            <div class="post-list-li-a-div-div post-list-title">{{ post.title }}</div>
-            <div class="post-list-excerpt">{{ post.excerpt }}</div>
-          </div>
-        </a>
-      </li>
-    {% endfor %}
-  </ul>
-   <!-- Pagination -->
-  {% if paginator.total_pages > 1 %}
-  <div class="pagination">
-    {% if paginator.previous_page %}
-      <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="pagination-prev">&laquo; Zurück</a>
-    {% endif %}
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-2 about">
+        <div class="">
+          <h1>About dontlike</h1>
+          <p>In diesem Blog geht's um deutsche Trap Musik. Ich versuche möglichst regelmäßig die neueste Musik von angesagten und unbekannten Künstlern vorzustellen. Dabei gehe ich zu 100% voreingenommen und unobjektiv vor. Was mir gefällt landet hier, was nicht halt nicht und wem das nicht passt kann ja die Hip Hop Polizei rufen.</p>
+          <p>Auch zu finden auf <a href="">Twitter</a>, <a href="">Facebook</a> und <a href="">Instagram</a>, so wie sich das heutzutage gehört.</p>
+        </div>
+      </div>
+      <div class="col-md-10 frontpage-no-padding">
+        <ul class="post-list">
+          {% for post in paginator.posts %}
+            <li class="post-list-li" style="background-image: radial-gradient(ellipse at center, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, .75) 100%), url('{{ post.image }}')">
+              <a href="{{ post.url }}" class="post-list-li-a">
+                <div class="post-list-li-a-div">
+                  <div class="post-list-li-a-div-div post-list-date">{{ post.date | date: '%-d. %B %Y' }}</div>
+                  <div class="post-list-li-a-div-div post-list-title">{{ post.title }}</div>
+                  <div class="post-list-excerpt">{{ post.excerpt }}</div>
+                </div>
+              </a>
+            </li>
+          {% endfor %}
+        </ul>
+         <!-- Pagination -->
+        {% if paginator.total_pages > 1 %}
+        <div class="pagination">
+          {% if paginator.previous_page %}
+            <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="pagination-prev">&laquo; Zurück</a>
+          {% endif %}
 
-    {% for page in (1..paginator.total_pages) %}
-      {% if page == paginator.page %}
-        <b class="pagination-b">{{ page }}</b>
-      {% elsif page == 1 %}
-        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
-      {% else %}
-        <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
-      {% endif %}
-    {% endfor %}
+          {% for page in (1..paginator.total_pages) %}
+            {% if page == paginator.page %}
+              <b class="pagination-b">{{ page }}</b>
+            {% elsif page == 1 %}
+              <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
+            {% else %}
+              <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+            {% endif %}
+          {% endfor %}
 
-    {% if paginator.next_page %}
-      <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="pagination-next">Weiter &raquo;</a>
-    {% endif %}
+          {% if paginator.next_page %}
+            <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="pagination-next">Weiter &raquo;</a>
+          {% endif %}
+        </div>
+        {% endif %}
+      </div>
+    </div>
   </div>
-  {% endif %}
 </main>

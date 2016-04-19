@@ -1,13 +1,15 @@
 # Title, decription, tagline and URL for your site
 # Can be used in your theme by calling 'site.title' and so on
 title: dontlike Blog
-description: Die Kunstvolle Präsentation einer Jugend, die Chief Keef besser als Tupac findet. Trap / Rap / Hip Hop Blog
+description: Trap / Rap / Hip Hop Blog auf deutsch
 url: https://dontlike.in
 twitter:
   username: dontlikeBlog
 social:
   links:
     - https://www.facebook.com/dontlikeBlog
+    - https://twitter.com/dontlikeBlog
+    - https://www.instagram.com/dontlikeblog
 
 # Used so Jekyll outputs the site correctly so Gulp can do what it wants
 source: src
@@ -39,7 +41,7 @@ limit_posts: 12
 
 # Permalink structure and pagination options
 permalink: pretty
-paginate: 12
+paginate: 9
 paginate_path: 'page:num'
 excerpt_separator: '<!--more-->'
 
@@ -63,7 +65,6 @@ gems:
 # Settings for archives
 jekyll-archives:
   enabled:
-    - categories
     - tags
   layouts:
     year: 'year-archive'

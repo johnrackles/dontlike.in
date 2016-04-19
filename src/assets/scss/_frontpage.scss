@@ -7,6 +7,12 @@
     display: flex;
     flex-wrap: wrap;
   }
+
+  @media (min-width: $screen-md) {
+    background-color: $brand-primary;
+    margin-right: -1em;
+    height: calc(100vh - 183px);
+  }
 }
 
 .post-list-li {
@@ -16,7 +22,8 @@
 
   @media (min-width: $screen-sm) {
     display: inline-block;
-    width: 25vw;
+    height: calc(33.33vh - 61px);
+    width: 33.33%;
 
     &:hover {
       .post-list-li-a-div {
@@ -40,8 +47,8 @@
   padding: 1em;
   position: relative;
 
-  @media (min-width: $screen-md) {
-    height: calc(33.33vh - ((72px + 47px) / 3));
+  @media (min-width: $screen-sm) {
+    height: calc(33.33vh - 61px);
     width: 100%;
   }
 
@@ -75,6 +82,10 @@
 .pagination {
   padding: 1em;
   text-align: center;
+  @media (min-width: $screen-md) {
+    z-index: 99;
+    border-top: 1px solid $brand-primary;
+  }
 }
 
 .pagination-b {
@@ -103,3 +114,23 @@
   }
 }
 
+.about {
+  padding: 1em !important;
+  @media (min-width: $screen-md) {
+    box-shadow: 2px 0 5px rgba(58, 31, 133, .75);
+    height: calc(100vh - 119px);
+    overflow-y: scroll;
+    z-index: 9;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+}
+
+.frontpage-no-padding {
+  @media (min-width: $screen-md) {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}

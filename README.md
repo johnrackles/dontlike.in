@@ -1,36 +1,31 @@
 # dontlike.in :fire:
 
-> Die Kunstvolle Präsentation einer Jugend, die Chief Keef besser als Tupac findet.
+> So schreibt man Posts für dontlike.in
 
-## To get started
+## Benötigte Software
+- [git](https://git-scm.com/downloads)
+- [ruby](https://www.ruby-lang.org/en/downloads/)
+- [node](https://nodejs.org/en/download/)
 
+## Lokal installieren
+Zuerst erstellt man ein neues Verzeichnis und wechselt dann hinein (bei solchen Befehlen wird das **$** Zeichen nicht mit eingegeben).
+
+Auf OSX / Linux geht das zB mit
 ```sh
-$ gulp [--prod]
+$ mkdir dontlike && cd dontlike
 ```
 
-And you'll have a new Jekyll site generated for you and displayed in your
-browser. Neato. If you want to run it with production settings, just add
-`--prod`.
-
-## Usage
-
+Dann cloned man das Repository in dieses Verzeichnis
 ```sh
-$ gulp build [--prod]
+$ git clone https://github.com/johnrackles/dontlike.in.git
 ```
 
+Der Blog funktioniert mit [Jekyll](https://jekyllrb.com/), alle zugehörigen Programme installiert man mit
 ```sh
-$ gulp deploy
+$ npm install && bundle install
 ```
 
-## Install
-If you have cloned this repo or want to reinstall, make sure there's no
-`node_modules` or `Gemfile.lock` folder/file and then run `npm install` and
-`bundle install`.
+## Posts schreiben
+Posts befinden sich in dem Ordner ```/src/_posts/``` und sind in [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) geschrieben. Am Anfang jedes Posts stehen ein paar Informationen die für Jekyll wichtig sind. Sie werden eingerahmt von jeweils drei Bindestrichen. Dort müssen Titel, Tags und ein Headerbild angegeben werden. Außerdem fängt jeder Beitrag mit einem Zitat an, welches mit einem ">" eingeleitet wird. Danach folgt das Trennelement, das angibt ab wo der eigentliche Text losgeht: ```<!--more-->``
 
-## Github
-For more information on how to use your new project, please refer to the [README
-on Github](https://github.com/sondr3/generator-jekyllized).
-
-## Owner
-
-> [John](https://dontlike.in)
+### Übersicht des Dateianfangs
