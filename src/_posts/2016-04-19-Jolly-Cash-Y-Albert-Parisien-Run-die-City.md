@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Jolly Ca$h Y Albert Parisien - Run die City (YangMonty RMX)
-image: /assets/images/posts/2016-04-19-Jolly-Ca$h-Y-Albert-Parisien-Run-die-City-(YangMonty-RMX).jpg
+image: /assets/images/posts/2016-04-19-Jolly-Cash-Y-Albert-Parisien-Run-die-City.jpg
 
 tags:
   - Jolly Ca$h
