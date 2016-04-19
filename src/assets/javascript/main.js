@@ -1,5 +1,5 @@
-$(document).ready(() => {
-  $(window).scroll(() => {
+$(document).ready(function () {
+  $(window).scroll(function () {
     const $header = $('.header');
     if ($(window).scrollTop() > (72 - 49)) {
       $header.addClass('scrolled');
