@@ -10,6 +10,7 @@ tags:
 > Wir ham keine Fans doch wir haben eine Gang
 
 <!--more-->
+<iframe class="bandcamp" style="border: 0; width: 100%; max-width: 720px; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=2733839327/size=large/bgcol=ffffff/linkcol=7137dc/tracklist=false/artwork=small/transparent=true/" seamless></iframe>
 Leangang – das sind die Wiener Artists Leanboy (der sich auch für das Produzieren des Mixtapes verantwortlich zeigt), Captain Codein, Jan Thug, Kid Purple und Dj Sizzurp, selbstbetitelt &bdquo;Vienna's finest Rap-Crew&ldquo;
 
 Bekann sind die Jungs durch ihre recht erfolgreichen und gut produzierten Videos zu [Kush](https://youtu.be/RJE-Xg-zLx4) und [Tony Montana](https://youtu.be/5wN-NOEtyuk) und ihre Masken.
