@@ -17,7 +17,7 @@ Bekann sind die Jungs durch ihre recht erfolgreichen und gut produzierten Videos
 
 Ansonsten gibt's das übliche: jede Menge Autotune, Girls, Drogen, *Sheesh*, *Burr* und *Scurr* auf gut produzierten Trap Beats. Also genau das, was man liebt :heart:
 
-[Download auf Bandcamp](https://leangang.bandcamp.com/album/designer-tape)
+Download auf [Bandcamp](https://leangang.bandcamp.com/album/designer-tape) oder [Zippyshare](http://www63.zippyshare.com/v/MSJKZbxW/file.html)
 
 ***
 
