@@ -2,7 +2,7 @@
 layout: post
 title: Yung Hurn - FDP
 image: /assets/images/posts/2016-04-24-Yung-Hurn-FDP.jpg
-<!-- youtube_id: m0aJfQn8wK4 -->
+youtube_id: HogTcxUJiJo
 tags:
   - Video
   - Yung Hurn
@@ -10,7 +10,6 @@ tags:
 > Fick die Polizei, ich hab nix dabei
 
 <!--more-->
-***Leider wurde das Video zwischenzeitlich von Youtube gesperrt***
 
 Yung Hurn's Statement auf Facebook:
 > FDP video wurde gesperrt. Wie ich finde ein starker eingriff in die künstlerische meinungsfreiheit aber egal
