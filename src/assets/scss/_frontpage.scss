@@ -4,6 +4,8 @@
   padding: 0;
 
   @media (min-width: $screen-sm) {
+    align-content: flex-start;
+    align-items: flex-start;
     display: flex;
     flex-wrap: wrap;
   }
@@ -11,7 +13,11 @@
   @media (min-width: $screen-md) {
     background-color: $brand-primary;
     margin-right: -1em;
-    height: calc(100vh - 183px);
+    height: calc(100vh - 174px);
+  }
+
+  &.tag-list {
+    background-color: #fff;
   }
 }
 
@@ -22,7 +28,7 @@
 
   @media (min-width: $screen-sm) {
     display: inline-block;
-    height: calc(33.33vh - 61px);
+    height: calc(33.33vh - 57px);
     width: 33.33%;
 
     &:hover {
@@ -64,6 +70,7 @@
 
   @media (min-width: $screen-md) {
     bottom: 1em;
+    padding-right: 2em;
     transition: transform .2s ease-in;
     width: 100%;
   }

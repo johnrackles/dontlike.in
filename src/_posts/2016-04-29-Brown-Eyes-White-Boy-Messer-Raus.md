@@ -4,6 +4,7 @@ title: Brown Eyes White Boy - Messer Raus
 image: /assets/images/posts/2016-04-29-Brown-Eyes-White-Boy-Messer-Raus.jpg
 tags:
   - Brown-Eyes White Boy
+  - BMG
 ---
 > Bruder warum holst du denn dein Messer raus
 
