@@ -1,5 +1,5 @@
 {
-  "parser": "babel-eslint",
+  "parser": "babel",
   "globals": {
     "describe": true,
     "before": true,
