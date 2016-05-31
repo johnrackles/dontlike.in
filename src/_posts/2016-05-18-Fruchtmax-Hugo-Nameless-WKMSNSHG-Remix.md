@@ -8,6 +8,7 @@ tags:
   - Hugo Nameless
   - Haiyti
   - TRETTMANN
+  - Video
 ---
 > Ist das angeboren oder liegt dass daran dass ich jeden Tag high bin?
 

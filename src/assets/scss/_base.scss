@@ -8,11 +8,11 @@ $lightest-color: #6B54AB;
 // stick footer to bottom
 html,
 body {
-  min-height: calc(100vh - 72px);
+  min-height: calc(100vh - 100px);
 }
 
 .main-container {
-  min-height: calc(100vh - 72px);
+  min-height: calc(100vh - 100px);
   margin-bottom: -47px;
 
   &:after {
