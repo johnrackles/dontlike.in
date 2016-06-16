@@ -1,0 +1,145 @@
+.post-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  @media (min-width: $screen-sm) {
+    align-content: flex-start;
+    align-items: flex-start;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  @media (min-width: $screen-md) {
+    background-color: $brand-primary;
+    margin-right: -1em;
+    height: calc(100vh - 174px);
+  }
+
+  &.tag-list {
+    background-color: #fff;
+    height: auto;
+    min-height: calc(100vh - 174px);
+  }
+}
+
+.post-list-li {
+  background-size: auto, cover;
+  background-position: center;
+  overflow: hidden;
+
+  @media (min-width: $screen-sm) {
+    display: inline-block;
+    height: calc(33.33vh - 57px);
+    width: 33.33%;
+
+    &:hover {
+      .post-list-li-a-div {
+        transform: translateY(-2em);
+        transition: transform .3s ease-out;
+      }
+
+      .post-list-excerpt {
+        transform: translateY(0);
+        opacity: 1;
+        transition: transform .2s ease-out, opacity .2s ease-out;
+      }
+    }
+  }
+}
+
+.post-list-li-a {
+  color: #fff;
+  display: block;
+  height: 210px;
+  padding: 1em;
+  position: relative;
+
+  @media (min-width: $screen-sm) {
+    height: calc(33.33vh - 61px);
+    width: 100%;
+  }
+
+  &:hover,
+  &:focus {
+    color: #fff;
+  }
+}
+
+.post-list-li-a-div {
+  bottom: 1em;
+  position: absolute;
+
+  @media (min-width: $screen-md) {
+    bottom: 1em;
+    padding-right: 2em;
+    transition: transform .2s ease-in;
+    width: 100%;
+  }
+}
+
+.post-list-li-a-div-div {
+  background-color: rgba(58, 31, 133, .75);
+  display: inline-block;
+  padding: 5px;
+}
+
+.post-list-title {
+  vertical-align: bottom;
+}
+
+.pagination {
+  padding: 1em;
+  text-align: center;
+  @media (min-width: $screen-md) {
+    z-index: 99;
+    border-top: 1px solid $brand-primary;
+  }
+}
+
+.pagination-b {
+  font-size: 1.2em;
+}
+
+.post-list-excerpt {
+  display: none;
+
+  @media (min-width: $screen-md) {
+    background-color: rgba(58, 31, 133, .75);
+    display: block;
+    opacity: 0;
+    transform: translateY(100%);
+    transition: transform .5s ease-in, opacity .5s ease-in;
+    transition-delay: .1s;
+    position: absolute;
+    padding-right: 1em;
+
+    blockquote {
+      border: 0;
+      padding: 5px;
+      margin: 0;
+      font-size: 1em;
+    }
+  }
+}
+
+.about {
+  padding: 1em !important;
+  @media (min-width: $screen-md) {
+    box-shadow: 2px 0 5px rgba(58, 31, 133, .75);
+    height: calc(100vh - 119px);
+    overflow-y: scroll;
+    z-index: 9;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+}
+
+.frontpage-no-padding {
+  @media (min-width: $screen-md) {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}

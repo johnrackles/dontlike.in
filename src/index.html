@@ -1,0 +1,45 @@
+---
+layout: default
+---
+
+<main class="main frontpage">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-2 about">
+        <div class="">
+          <h1>About dontlike</h1>
+          <p>In diesem Blog geht's um deutsche Trap Musik. Ich versuche möglichst regelmäßig die neueste Musik von angesagten und unbekannten Künstlern vorzustellen. Dabei gehe ich zu 100% voreingenommen und unobjektiv vor. Was mir gefällt landet hier, was nicht halt nicht und wem das nicht passt kann ja die Hip Hop Polizei rufen.</p>
+          <p>Auch zu finden auf <a href="https://twitter.com/dontlikeBlog">Twitter</a>, <a href="https://www.facebook.com/dontlikeBlog">Facebook</a>, <a href="https://www.youtube.com/channel/UCVsW8c-m8Wss6ZjR4mFO1Ew">Youtube</a> und <a href="https://www.instagram.com/dontlikeblog">Instagram</a> – so wie sich das heutzutage gehört.</p>
+        </div>
+      </div>
+      <div class="col-md-10 frontpage-no-padding">
+        <ul class="post-list">
+          {% for post in paginator.posts %}
+            <li class="post-list-li" style="background-image: radial-gradient(ellipse at center, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, .75) 100%), url('{{ post.image }}')">
+              <a href="{{ post.url }}" class="post-list-li-a">
+                <div class="post-list-li-a-div">
+                  <div class="post-list-li-a-div-div post-list-date">{{ post.date | date: '%-d. %B %Y' }}</div>
+                  <div class="post-list-li-a-div-div post-list-title">{{ post.title }}</div>
+                  <div class="post-list-excerpt">{{ post.excerpt }}</div>
+                </div>
+              </a>
+            </li>
+          {% endfor %}
+        </ul>
+      <!-- Pagination -->
+      <div class="pagination">
+        {% if paginator.previous_page %}
+          <a href="{{ paginator.previous_page_path }}" class="previous">Previous</a>
+        {% else %}
+          <span class="previous">Zurück</span>
+        {% endif %}
+        <span class="page_number ">{{ paginator.page }} von {{ paginator.total_pages }}</span>
+        {% if paginator.next_page %}
+          <a href="{{ paginator.next_page_path }}" class="next">Weiter</a>
+        {% else %}
+          <span class="next ">Weiter</span>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</main>

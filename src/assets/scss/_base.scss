@@ -1,0 +1,37 @@
+// Colors
+$main-color: $brand-primary;
+$darker-color: #29116D;
+$darkest-color: #1A0751;
+$lighter-color: #513799;
+$lightest-color: #6B54AB;
+
+// stick footer to bottom
+html,
+body {
+  min-height: calc(100vh - 100px);
+}
+
+.main-container {
+  min-height: calc(100vh - 100px);
+  margin-bottom: -47px;
+
+  &:after {
+    content: '';
+    display: block;
+  }
+}
+
+.footer,
+.main-container:after {
+  height: 47px;
+}
+
+// Set Font Families
+p {
+  font-family: $font-family-serif;
+  text-align: left;
+}
+
+img {
+  max-width: 100%;
+}

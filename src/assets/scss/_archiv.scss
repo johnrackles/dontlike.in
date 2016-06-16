@@ -1,0 +1,11 @@
+.archiv {
+  @media (min-width: $screen-md) {
+    padding: 2em 0;
+  }
+
+  .post-list-li {
+    @media (min-width: $screen-md) {
+      width: 33.33%;
+    }
+  }
+}
