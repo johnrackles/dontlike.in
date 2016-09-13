@@ -1,12 +1,13 @@
 ---
 layout: post
 image: /assets/images/posts/2016-06-16-Hugo-Nameless-Kulturerbe-Achim-Fruchtmax-KIDS-Based-Remix.jpg
+title: Hugo Nameless, Kulturerbe Achim und Fruchtmax - KIDS
 tags:
   - Hugo Nameless
   - Fruchtmax
   - Kulturerbe Achim
   - Tighty
-  - Chirs Parkers
+  - Chris Parkers
 ---
 > Ich bin King In Dieser Stadt
 
