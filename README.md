@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # dontlike.in
 
 > a trap blog
@@ -72,4 +71,3 @@ $ npm install && bundle install
 Posts befinden sich in dem Ordner ```/src/_posts/``` und sind in [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) geschrieben. Am Anfang jedes Posts stehen ein paar Informationen die für Jekyll wichtig sind. Sie werden eingerahmt von jeweils drei Bindestrichen. Dort müssen Titel, Tags und ein Headerbild angegeben werden. Außerdem fängt jeder Beitrag mit einem Zitat an, welches mit einem ">" eingeleitet wird. Danach folgt das Trennelement, das angibt ab wo der eigentliche Text losgeht: ```<!--more-->``
 
 ### Übersicht des Dateianfangs
->>>>>>> ae5f334773d66af09d9bd0130473d6598a5991a1
