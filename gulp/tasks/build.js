@@ -1,3 +1,4 @@
+'use strict';
 const gulp = require('gulp');
 const shell = require('shelljs');
 const size = require('gulp-size');
@@ -6,7 +7,7 @@ const argv = require('yargs').argv;
 // 'gulp jekyll:tmp' -- copies your Jekyll site to a temporary directory
 // to be processed
 gulp.task('site:tmp', () =>
-  gulp.src(['src/**/*', '!src/assets/**/*', '!src/assets'])
+  gulp.src(['src/**/*', '!src/assets/**/*', '!src/assets'], {dot: true})
     .pipe(gulp.dest('.tmp/src'))
     .pipe(size({title: 'Jekyll'}))
 );
@@ -24,7 +25,7 @@ gulp.task('site', done => {
 });
 
 // 'gulp doctor' -- literally just runs jekyll doctor
-gulp.task('site:doctor', done => {
+gulp.task('site:check', done => {
   shell.exec('jekyll doctor');
   done();
 });

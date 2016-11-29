@@ -1,15 +1,19 @@
 ---
 layout: post
 title: DONTLIKE Tape Vol. 1
-image: /assets/images/posts/2016-11-29-DONTLIKE-Tape-Vol-1.jpg
-tags: 
-	- Mixtape
-	- Download
+image: /assets/images/posts/2016-11-30-DONTLIKE-Tape-Vol-1.jpg
+youtube_id: K6yR4GHQI84
 ---
-> Test
+> TURNUP!
 
 <!--more-->
+:fire: :fire: :fire: Finally is es da, das erste DONTLIKE Tape! Mixed by Stephen, Cover by Lorez. :fire: :fire: :fire: 
 
+Verarbeitet wurden die besten Tracks, die 2016 zu bieten hatte. Danke an jeden Künstler, der uns dieses Jahr mit solch wunderbarer Musik beglückt hat :heart:
+
+<iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/295373337&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+
+:arrow_down: [Download Hier](https://dontlike.in/download/DONTLIKE_Tape_Vol.1.zip)
 
 ## Tracklist 
 

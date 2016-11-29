@@ -1,4 +1,4 @@
-// generated on 2016-06-15 using generator-jekyllized 1.0.0-rc.3
+// generated on 2016-11-29 using generator-jekyllized 1.0.0-rc.7
 'use strict';
 
 const gulp = require('gulp');
@@ -36,7 +36,7 @@ gulp.task('deploy', gulp.series('upload'));
 gulp.task('rebuild', gulp.series('clean', 'clean:images'));
 
 // 'gulp check' -- checks your site configuration for errors and lint your JS
-gulp.task('check', gulp.series('site:doctor'));
+gulp.task('check', gulp.series('site:check'));
 
 // 'gulp' -- cleans your assets and gzipped files, creates your assets and
 // injects them into the templates, then builds your site, copied the assets
