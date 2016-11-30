@@ -13,7 +13,7 @@ Verarbeitet wurden die besten Tracks, die 2016 zu bieten hatte. Danke an jeden K
 
 <iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/295373337&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
 
-:arrow_down: [Download Hier](https://dontlike.in/download/DONTLIKE_Tape_Vol.1.zip)
+:arrow_down: <a href="https://dontlike.in/download/DONTLIKE_Tape_Vol.1.zip" id="tape-download" download>Download Hier</a>
 
 ## Tracklist 
 
